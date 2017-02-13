@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  tableView及cell的自定义
+//
+//  Created by gw on 2017/1/8.
+//  Copyright © 2017年 杨学浩. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define GWWidth(x) [UIScreen mainScreen].bounds.size.width/375*(x)
+#define GWHeight(x) [UIScreen mainScreen].bounds.size.height/667*(x)
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#endif /* PrefixHeader_pch */
